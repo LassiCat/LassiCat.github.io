@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+    <title id="title">Comments</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+        <div class="comments-container">
+            <div class="comment">
+                <h2>重要公告</h2>
+                    <hr>
+                    <ul>
+                    <li><h3>是开场白</h3>
+                    <ol>
+                    <li><strong>祝大家新年快乐</strong></li>
+                    <li>船新的公告板 <del>（告白墙）</del> 上线啦。</li>
+                    </ol>
+                    </li>
+                    <li><h3>使用教程</h3>
+                    <ol>
+                    <li>填上你的昵称（必填）</li>
+                    <li>填上你的邮箱（可选，如果你想收到回复的通知的话）</li>
+                    <li>如果你有自己的网站可以将它填上去（可选）</li>
+                    <li>填上内容（必填，内容可以选用 Markdown 语言编写)</li>
+                    </ol>
+                    </li>
+                    <li><h3>次要说明</h3>
+                    <ol>
+                    <li>关于 Markdown 语言，这是一种标记语言，看到输入框左下角那个黑底白字的<code>M↓</code>了吗，<br>点一下它就可以知道怎么用它（高能预警：不建议英语渣打开这个网站，它是纯英文的）。<br>当然，你也可以选择百度一下。（注：这篇巨烂的公告是用 Markdown 写的）。</li>
+                    </ol>
+                    </li>
+                    <li><h3>注意事项</h3>
+                    <ol>
+                    <li><strong>请勿发布违法违规信息，见删！</strong></li>
+                    <li><strong>请务必不要暴露自己的个人信息（自己和身边任何人的任何信息），见删！</strong></li>
+                    <li><strong>这是测试站，有可能会清空数据，请见谅！</strong></li>
+                    <li><strong>请务必仔细阅读公告</strong></li>
+                    <li>如果对网站有任何疑问（包括出现违规内容、Bug 等），可以 GitHub 开一个 <a href="https://github.com/CharlieYu4994/wall/issues" target="_blank" rel="nofollow">Issues</a> 或者回复我。</li>
+                    </ol>
+                    <p>就这样啦，祝大家玩得愉快！！！</p>
+                    </li>
+                    </ul>
+            </div>
+            <div class="comment">
+                <h2>重要公告</h2>
+                    <hr>
+                    <ul>
+                    <li><h3>是开场白</h3>
+                    <ol>
+                    <li><strong>祝大家新年快乐</strong></li>
+                    <li>船新的公告板 <del>（告白墙）</del> 上线啦。</li>
+                    </ol>
+                    </li>
+                    <li><h3>使用教程</h3>
+                    <ol>
+                    <li>填上你的昵称（必填）</li>
+                    <li>填上你的邮箱（可选，如果你想收到回复的通知的话）</li>
+                    <li>如果你有自己的网站可以将它填上去（可选）</li>
+                    <li>填上内容（必填，内容可以选用 Markdown 语言编写)</li>
+                    </ol>
+                    </li>
+                    <li><h3>次要说明</h3>
+                    <ol>
+                    <li>关于 Markdown 语言，这是一种标记语言，看到输入框左下角那个黑底白字的<code>M↓</code>了吗，<br>点一下它就可以知道怎么用它（高能预警：不建议英语渣打开这个网站，它是纯英文的）。<br>当然，你也可以选择百度一下。（注：这篇巨烂的公告是用 Markdown 写的）。</li>
+                    </ol>
+                    </li>
+                    <li><h3>注意事项</h3>
+                    <ol>
+                    <li><strong>请勿发布违法违规信息，见删！</strong></li>
+                    <li><strong>请务必不要暴露自己的个人信息（自己和身边任何人的任何信息），见删！</strong></li>
+                    <li><strong>这是测试站，有可能会清空数据，请见谅！</strong></li>
+                    <li><strong>请务必仔细阅读公告</strong></li>
+                    <li>如果对网站有任何疑问（包括出现违规内容、Bug 等），可以 GitHub 开一个 <a href="https://github.com/CharlieYu4994/wall/issues" target="_blank" rel="nofollow">Issues</a> 或者回复我。</li>
+                    </ol>
+                    <p>就这样啦，祝大家玩得愉快！！！</p>
+                    </li>
+                    </ul>
+            </div>
+        </div>
+        <div class="input-container">
+            <form action="http://127.0.0.1:5000/api/comment" method="POST">
+                <div style="display: flex; justify-content: flex-start;">
+                    <input class="input-text" type="text" name="name" required placeholder="昵称">
+                    <input class="input-text" type="text" name="email" placeholder="邮箱">
+                    <input class="input-text" type="text" name="qq" placeholder="QQ">
+                </div>
+                <div class="input-textarea" contenteditable="true"><br /></div>
+                    <input class="input-buttom" type="submit" value="提交">
+            </form>
+        </div>
+</body>
+
+</html>

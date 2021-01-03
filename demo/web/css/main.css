@@ -1,0 +1,78 @@
+hr {
+    margin: .825em 0;
+    border-color: #f6f6f6;
+    border-style: dashed;
+}
+.comments-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 95%;
+    width: 95%;
+    position: relative;
+    margin: auto;
+    border: 5px dashed #f16d7a;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+.comment{
+    width: 98%;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.input-container{
+    height: auto;
+    width: 95%;
+    position: fixed;
+    bottom: 4%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px dashed #b8f1ed;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+.input-text{
+    flex: 1 1 0;
+    height: 25px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+    margin: 5px;
+    font-size: 1em;
+}
+.input-buttom{
+    float: right;
+    width: 60px;
+    padding: 5px;
+    margin-bottom: 6px;
+    margin-right: 5px;
+    right: 5px;
+    background-color: #b8f1ed;
+    color: #fff;
+    border-radius: 5px;
+    border: 0px;
+    text-align: center;
+    vertical-align: middle;
+    font-size:100%;
+    outline: none;
+}
+.input-textarea{
+    width: auto;
+    border-radius: 5px;
+    border: 5px solid #fff;
+    min-height: 100px;
+    background: #fff;
+    outline: none;
+    margin: 5px;
+    font-size: 1em;
+}
+.input-box{
+
+}
